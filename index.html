@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travco</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+   
+
+    <!-- Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand title" href="#">Traveco</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#">PACKAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn rounded-0 py-3 px-4 btn-primary me-5" id="buttn">Login</button>
+              </li>
+              <!-- <li class="nav-item">
+                <i class="fa-brands fa-facebook me-3 fa-2x" id="icon"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa-brands fa-instagram me-3 fa-2x" id="icon"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa-brands fa-twitter me-3 fa-2x" id="icon"></i>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <section class="hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1 class="text">Explore the World</h1>
+              <p class="text">Discover amazing destinations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Package section -->
+
+      <section class="packages" id="packages">
+        <div class="container">
+           <div class="main-txt">
+              <h2 id="packages"><span>PACKAGES</span></h2>
+           </div>
+           
+           <div class="row" style="margin-top: 30px;">
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                      <img src="https://www.jodogoairportassist.com/main/assets/images/blog/italy/top-ten-tourist-places-to-visit-in-italy-3.webp" height="200px alt="">
+                      <div class="card-body">
+                         <h3>Italy</h3>
+                         <p>Immerse yourself in the art, history, and cuisine of Italy. Explore ancient ruins, enjoy world-renowned food, and experience the vibrant culture of this beautiful country.</p>
+                         <div class="start">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                         </div>
+                         <h6>Price: <strong>$525</strong></h6>
+                         <a href="#book">Book Now</a>
+                      </div>
+                   </div>
+              </div>
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yvY0270clcKgjNACcmSk5Jky63UpvHgqLQ&s" height="200px"  alt="">
+                    <div class="card-body">
+                       <h3>France</h3>
+                       <p>Indulge in the romance and elegance of France. Visit iconic landmarks like the Eiffel Tower, enjoy gourmet cuisine, and explore the beautiful countryside.</p>
+                       <div class="start">
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star "></i>
+                       </div>
+                       <h6>Price: <strong>$555</strong></h6>
+                       <a href="#book">Book Now</a>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvwBfAX9OITovO2TB3Xbo6sVkKxHuS9S9Hw&s" height="200px alt="">
+                    <div class="card-body">
+                       <h3>Dubai</h3>
+                       <p>Dubai: Luxurious desert oasis, global shopping hub, iconic skyline. renowned for its opulent lifestyle, towering skyscrapers, and vibrant shopping scene..</p>
+                       <div class="start">
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star "></i>
+                       </div>
+                       <h6>Price: <strong>$400</strong></h6>
+                       <a href="#book">Book Now</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+      
+           <div class="row" style="margin-top: 30px;">
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGXsbQ_mZYZSYZdssKBh8hE-RbRGJFDuzAkw&s" height="200px alt="">
+                      <div class="card-body">
+                         <h3>United Kingdom</h3>
+                         <p>Experience the charm and history of the United Kingdom. From the bustling streets of London to the serene landscapes of the Scottish Highlands, there's something for everyone.</p>
+                         <div class="start">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                         </div>
+                         <h6>Price: <strong>$500</strong></h6>
+                         <a href="#book">Book Now</a>
+                      </div>
+                   </div>
+              </div>
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                    <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2023/06/PTV-India-Cover-Final.png" height="200px alt="">
+                    <div class="card-body">
+                       <h3>India</h3>
+                       <p>Experience the vibrant colors and rich traditions of India. Visit iconic landmarks, enjoy diverse cuisine, and immerse yourself in the unique culture and history of this incredible country.</p>
+                       <div class="start">
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star "></i>
+                       </div>
+                       <h6>Price: <strong>$450</strong></h6>
+                       <a href="#book">Book Now</a>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-md-4 py-3 py-md-0">
+                 <div class="card">
+                    <img src="https://blog.thomascook.in/wp-content/uploads/2017/11/Untitled-design1-1.png" height="200px alt="">
+                    <div class="card-body">
+                       <h3>United States</h3>
+                       <p>Vibrant cities, stunning landscapes, and diverse culture.From New York’s skyline to the Grand Canyon, explore rich history, exciting attractions, and delicious cuisine across this vast and varied land.</p>
+                       <div class="start">
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star "></i>
+                       </div>
+                       <h6>Price: <strong>$600</strong></h6>
+                       <a href="#book">Book Now</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+      </section>  
+      
+      <!-- gallary -->
+
+      <div class="container-fluid mt-2 mb-3">
+        <h1 class="d-flex align-items-center justify-content-center green-text">Gallary</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <img src="./images/first.jpg" width="100%" height="600px" class="d-block w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">
+    <h5>Japan</h5>
+    <p>Some representative placeholder content for the first slide.</p>
+  </div>
+</div>
+<div class="carousel-item">
+  <img src="./images/second.jpg" width="100%" height="600px class="d-block w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">
+    <h5>Dubai</h5>
+    <p>Some representative placeholder content for the second slide.</p>
+  </div>
+</div>
+<div class="carousel-item">
+  <img src="./images/third.jpg" width="100%" height="600px class="d-block w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">
+    <h5>Nature</h5>
+    <p>Some representative placeholder content for the third slide.</p>
+  </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+      </div>
+      
+      
+    <!-- Services -->
+    <section class="packages packages-bg" id="packages">
+      <div class="container">
+         <div class="main-txt">
+            <h2 id="services" style="color: white;"><span>SERVICES</span></h2>
+         </div>
+         
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/020/141/626/small/plane-in-the-sky-passenger-commercial-plane-flying-above-the-clouds-concept-of-fast-travel-vacation-and-business-photo.jpg" height="200px alt="">
+                    <div class="card-body">
+                       <h3>FLIGHT BOOKING</h3>
+                       <p>Help you find and book flights based on your preferred dates, times, and budget. They often have access to special deals and discounts.
+
+                       </p>
+                       
+                       
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbiBFg9gyCqk1QSTcJNQo0z0OV8QTkj7A8g&ss" height="200px"  alt="">
+                  <div class="card-body">
+                     <h3>HOTEL ROOMS</h3>
+                     <p>We can assist in booking accommodations ranging from hotels to resorts, based on your preferences for location, star rating and budget.</p>
+                     
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="https://images.clickdealer.co.uk/blog/1061/featured_images/75ca2501382782fd251db4196a6d082c.jpg" height="200px alt="">
+                  <div class="card-body">
+                     <h3>TRANSPORTTION</h3>
+                     <p>Involves coordinating and optimizing securef travel arrangements, food and accommodation, guide, and ensuring traveler safety.
+
+                     </p>
+                     
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+    
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8ptraXjJsTWe9sMwPq_BH4TaC8qhCEAEsA&s" height="200px alt="">
+                    <div class="card-body">
+                       <h3>ADVENTURE</h3>
+                       <p>We can assist in planning adventurous trips such as safaris, trekking, scuba diving tours, and other outdoor activities, often partnering with specialized adventure tour.</p>
+                       
+                      
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F10bcf9ba-2697-4c87-94db-a6388b1dc533.jpg?crop=1564%2C880%2C318%2C0" height="200px alt="">
+                  <div class="card-body">
+                     <h3>CRUISE BOOKING</h3>
+                     <p>We can help you select and book cruises to various destinations, including advising on cabin choices, onboard activities, and shore excursions.</p>
+                     
+                    
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghdxd2bcWcCkjFcFKEahAVNlb7YMa-XFr4A&s" height="200px alt="">
+                  <div class="card-body">
+                     <h3>BOATING</h3>
+                     <p>Boating offers aquatic adventure, from serene lake cruises to thrilling ocean voyages. Experience relaxation, exploration, or adrenaline rush on the water.</p>
+                      
+                     
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>  
+
+    <!-- about -->
+
+    <!-- <section id="about" class="about-bg mt-0">
+      <h1 class="d-flex align-items-center justify-content-center about">ABOUT</h1>
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-6">
+            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sapiente dicta, quo nobis eius delectus quas ab assumenda ratione impedit temporibus ducimus deleniti reprehenderit magnam saepe, illum nemo labore quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione explicabo possimus excepturi quaerat consectetur sequi at voluptatem! Voluptatibus dolores odit cupiditate doloribus unde, quos fuga veniam ab vero aliquid voluptates.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi mollitia consectetur voluptatibus natus corporis, ratione et eos facere earum repellendus. Est harum soluta alias, sequi magnam natus quo aliquam sit?</p>
+          </div>
+          <div class="col-md-6">
+            <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nemo laborum totam, quod rerum quisquam voluptatem possimus omnis illo velit. Illo, sint rem! Explicabo molestiae maiores animi enim consequatur optio.
+            Perferendis numquam nostrum ab sequi temporibus? Dolores laborum repellendus ea eum minus nam ducimus maxime deserunt nostrum praesentium dolorem voluptas perferendis vero iusto, suscipit consequuntur? Obcaecati praesentium beatae ducimus ratione.
+            Perspiciatis, quos tenetur veritatis rerum, eveniet ex minus voluptatem dolor error </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- foooter -->
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h3>About Us</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Packages</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">About</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h3>Contact Us</h3>
+                  <p>
+                      Address: 123 Main Street, City, State, Zip<br>
+                      Phone: (123) 456-7890<br>
+                      Email: info@yourtravecoagency.com
+                  </p>
+                  <ul class="social-media">
+                      <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="copyright">
+              <p>&copy; 2024  Traveco Agency. All Rights Reserved.</p>
+          </div>
+      </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
